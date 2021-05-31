@@ -53,6 +53,6 @@ public final class Truck extends Vehicle {
     * @return nOfTire
     */
     public int nOfTires() {
-        return FOUR;
+        return nOfTire;
     }
 }

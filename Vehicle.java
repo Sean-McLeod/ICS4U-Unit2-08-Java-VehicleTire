@@ -69,7 +69,8 @@ public class Vehicle {
     */
     public void acceleration(final int increment) {
         if (increment < 0) {
-            System.out.println("Please enter in a positive number");
+            System.out.println("Please enter in a positive number.");
+            System.out.println("Your input won't affect the speed.");
         } else if (this.speed + increment > this.maxSpeed) {
             System.out.println("Your input is greater than "
                                + "the maximum speed.");
@@ -88,7 +89,8 @@ public class Vehicle {
     */
     public void brake(final int decrement) {
         if (decrement < 0) {
-            System.out.println("Please enter in a positive number");
+            System.out.println("Please enter in a positive number.");
+            System.out.println("Your input won't affect the speed.");
         } else if (this.speed - decrement < 0) {
             System.out.println("Your speed is less than the "
                                + "minimum speed.");

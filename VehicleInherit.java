@@ -93,7 +93,7 @@ public final class VehicleInherit {
             System.out.println(bike.ringBell());
 
             // get the number of tires of the truck and the bike
-            System.out.println("# of tires of a truck: " + truck.nOfTires());
+            System.out.println("\n# of tires of a truck: " + truck.nOfTires());
             System.out.println("# of tires of a bike: " + bike.nOfTires());
 
         } catch (Exception e) {

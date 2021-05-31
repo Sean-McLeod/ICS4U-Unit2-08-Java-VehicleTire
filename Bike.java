@@ -10,14 +10,14 @@
 public final class Bike extends Vehicle {
     /** Cadence of bike. */
     private double cadence;
+    /** Number of tires for bike. */
+    private int nOfTire;
     /** Cadence rate of bike. */
     private static final double CADENCERATE = 0.079;
     /** Number for gear ratio. */
     private static final double FIFTYTHREE = 53;
     /** Number for gear ratio. */
     private static final double TWELVE = 12;
-    /** Number of tires for bike. */
-    private int nOfTire;
 
     /** Constructor for bike. */
     public Bike() {
